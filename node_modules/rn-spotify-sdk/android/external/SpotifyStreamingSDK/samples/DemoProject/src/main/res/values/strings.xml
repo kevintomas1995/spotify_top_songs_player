@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spotify Android SDK Demo</string>
+    <string name="title_activity_demo">Spotify Android SDK Demo</string>
+    <string name="login_button_label">Login</string>
+    <string name="logout_button_label">Logout</string>
+    <string name="play_track_button_label">Track</string>
+    <string name="play_playlist_button_label">Playlist</string>
+    <string name="play_mono_track_button_label">Play mono track</string>
+    <string name="play_48khz_track_button_label">Play 48kHz track</string>
+    <string name="play_album_button_label">Album</string>
+    <string name="pause_button_label_toggle">Pause/Resume</string>
+    <string name="skip_next_button_label">Next</string>
+    <string name="skip_prev_button_label">Previous</string>
+    <string name="toggle_shuffle_button_toggle">Toggle shuffle</string>
+    <string name="toggle_repeat_button_label_toggle">Toggle repeat</string>
+    <string name="seek_button_label">Seek</string>
+    <string name="queue_button_label">Queue a song</string>
+    <string name="song_queued_toast">Song queued!</string>
+    <string name="high_bitrate_button_label">320kbps</string>
+    <string name="normal_bitrate_button_label">160kbps</string>
+    <string name="low_bitrate_button_label">96kbps</string>
+    <string name="no_metadata">no metadata</string>
+</resources>

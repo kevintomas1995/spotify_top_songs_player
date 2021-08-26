@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/metadata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_metadata"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:onClick="onLoginButtonClicked"
+        android:text="@string/login_button_label"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play_track_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onPlayButtonClicked"
+            android:text="@string/play_track_button_label"/>
+
+        <Button
+            android:id="@+id/play_album_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onPlayButtonClicked"
+            android:text="@string/play_album_button_label"/>
+
+        <Button
+            android:id="@+id/play_playlist_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onPlayButtonClicked"
+            android:text="@string/play_playlist_button_label"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pause_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onPauseButtonClicked"
+        android:text="@string/pause_button_label_toggle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/skip_prev_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSkipToPreviousButtonClicked"
+            android:text="@string/skip_prev_button_label"/>
+
+        <Button
+            android:id="@+id/skip_next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSkipToNextButtonClicked"
+            android:text="@string/skip_next_button_label"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/queue_song_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onQueueSongButtonClicked"
+        android:text="@string/queue_button_label"/>
+
+    <Button
+        android:id="@+id/toggle_shuffle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onToggleShuffleButtonClicked"
+        android:text="@string/toggle_shuffle_button_toggle"/>
+
+    <Button
+        android:id="@+id/toggle_repeat_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onToggleRepeatButtonClicked"
+        android:text="@string/toggle_repeat_button_label_toggle"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seek_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSeekButtonClicked"
+            android:text="@string/seek_button_label"/>
+
+        <EditText
+            android:id="@+id/seek_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:text="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/low_bitrate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:onClick="onLowBitrateButtonPressed"
+            android:text="@string/low_bitrate_button_label"/>
+
+        <Button
+            android:id="@+id/normal_bitrate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:onClick="onNormalBitrateButtonPressed"
+            android:text="@string/normal_bitrate_button_label"/>
+
+        <Button
+            android:id="@+id/high_bitrate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:onClick="onHighBitrateButtonPressed"
+            android:text="@string/high_bitrate_button_label"/>
+
+        <Button
+            android:id="@+id/play_mono_track_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onPlayButtonClicked"
+            android:text="@string/play_mono_track_button_label"/>
+
+        <Button
+            android:id="@+id/play_48khz_track_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onPlayButtonClicked"
+            android:text="@string/play_48khz_track_button_label"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.lufinkey.react.spotify">
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<application>
+		<activity
+			android:name="com.lufinkey.react.spotify.AuthActivity"
+			android:theme="@style/Theme.AppCompat.Dialog">
+		</activity>
+	</application>
+
+</manifest>
