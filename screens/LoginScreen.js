@@ -20,7 +20,7 @@ const LoginScreen = ({ navigation }) => {
   const [request, response, promptAsync] = useAuthRequest(
     {
       responseType: ResponseType.Token,
-      clientId: "0727fac047b041a4a45ddcf62eddc10f",
+      clientId: "",
       scopes: [
         "user-read-currently-playing",
         "user-read-recently-played",
